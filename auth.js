@@ -7,7 +7,7 @@ const isUserLoggedIn = () => {
 }
 
 const publicRoutes = ["/login.html", "/signup.html"];
-const privateRoutes = ["/dashboard.html"];
+const privateRoutes = ["/dashboard.html", "/customer-dashboard.html"];
 
 window.onload = () => {
     const sessionId = localStorage.getItem("sessionid");
