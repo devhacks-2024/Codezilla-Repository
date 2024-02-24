@@ -2983,6 +2983,12 @@ table.dataTable {
         font-size: 11px
     }
 }
+.menu_icon {
+    display:inline-block;
+}
+.menu_icon a{
+    text-decoration:none;
+}
 
 .sidebar_widget .date_range {
     display: flex;
@@ -3433,7 +3439,7 @@ body::-webkit-scrollbar {
 .main_content .main_content_iner {
     /* min-height: 68vh; */
     transition: .5s;
-    margin: 30px
+    /* margin: 30px */
 }
 
 @media(max-width: 991px) {
