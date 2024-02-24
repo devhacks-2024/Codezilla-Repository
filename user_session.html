@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>User session</title>
+    <link rel="icon" href="img/logo.jpeg" type="image/png">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/user_session.css">
+    <link rel="stylesheet" href="css/bootstrap1.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+    <script src="js/bootstrap1.min.js"></script>        
+</head>
+<body class="crm_body_bg">
+    <nav class="sidebar">
+        <div class="logo d-flex justify-content-between">
+            <img src="img/logo.jpeg" alt>
+            <div class="sidebar_close_icon d-lg-none">
+                <i class="ti-close"></i>
+            </div>
+        </div>
+        <ul id="sidebar_menu" class="metismenu">
+            <li class="mm-active">
+                <!-- <a class="has-arrow" href="#" aria-expanded="false"> -->
+                <img src="img/1.svg" alt>
+                <span><a>Dashboard</a></span>
+                <!-- </a> -->
+                <!-- <ul>
+                    <li><a class="active" href="">Classic</a></li>
+                </ul> -->
+            </li>
+            <li class="mm-active" style="margin-top:20px">
+                <span ><a>User Session</a></span>
+            </li>
+        </ul>
+    </nav>
+    <section class="main_content dashboard_part">
+        <div class="container-fluid g-0">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <div class="header_iner d-flex align-items-center justify-content-end">
+                        <div class="sidebar_icon d-lg-none">
+                            <i class="ti-menu"></i>
+                        </div>
+                        <div class="header_right d-flex justify-content-between align-items-center">
+                            <div class="profile_info">
+                                <img src="img/client_img.png" alt="#">
+                                <div class="profile_info_iner">
+                                    <p>Welcome Admin!</p>
+                                    <h5>Travor James</h5>
+                                    <div class="profile_info_details">
+                                        <a href="#">My Profile <i class="ti-user"></i></a>
+                                        <a href="#">Settings <i class="ti-settings"></i></a>
+                                        <a href="#">Log Out <i class="ti-shift-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content_iner user_session">     
+            <div class="main_content_iner ">
+                <div class="container-fluid plr_30 body_white_bg pt_30">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="QA_section">
+                                <div class="white_box_tittle list_header">
+                                    <h4>User session</h4>
+                                    <div class="box_right d-flex lms_block">
+                                        <div class="serach_field_2">
+                                            <div class="search_inner">
+                                                <form Active="#">
+                                                <div class="search_field">
+                                                    <input type="text" placeholder="Search content here...">
+                                                </div>
+                                                <button type="submit"> <i class="ti-search"></i> </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="add_button ms-2">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#addcategory" class="btn_1">Add New</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="QA_table ">
+                                    <table class="table lms_table_active">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">title</th>
+                                                <th scope="col">User Id</th>
+                                                <th scope="col">E-mail</th>
+                                                <th scope="col">Login time</th>
+                                                <th scope="col">Logout time</th>
+                                                <th scope="col">Location</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row"> <a href="#" class="question_content">Manager</a></th>
+                                                <td>Juan</td>
+                                                <td>abcdef@gmail.com</td>
+                                                <td>12:00</td>
+                                                <td>15:00</td>
+                                                <td>3:00</td>
+                                                <td><a href="#" class="status_btn">Active</a></td>
+                                            </tr>
+                                            <tr>
+                                            <th scope="row"> <a href="#" class="question_content">Admin</a></th>
+                                            <td>Jacob</td>
+                                            <td>abcdef@gmail.com</td>
+                                            <td>15:00</td>
+                                            <td>17:00</td>
+                                            <td>2:00</td>
+                                            <td><a href="#" class="status_btn">Active</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+</body>
+</html>
