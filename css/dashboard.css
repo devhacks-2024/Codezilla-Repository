@@ -2536,6 +2536,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child::before,tabl
     font-size: 20px
 }
 
+
 .serach_field-area {
     /* width: 500px; */
     position: relative;
@@ -2547,6 +2548,46 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child::before,tabl
         width:1000px
     }
 }
+.search_inner{
+    display: inline-block;
+    width:450px;
+}
+
+.dropbtn1 {
+    background-color: #428235;;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    margin-right:20px;
+}
+  
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content1 a:hover {background-color: #ddd;}
+  
+.dropdown1:hover .dropdown-content1 {display: block;}
+  
+.dropdown1:hover .dropbtn1 {background-color: #428235;}
 
 .serach_field-area .search_inner input {
     color: #000;
@@ -2558,7 +2599,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child::before,tabl
     padding-right: 15px;
     border-bottom: 1px solid #f4f7fc;
     background: #42823557;
-    border-radius: 30px
+    border-radius: 30px;
 }
 
 .serach_field-area .search_inner input::placeholder {
